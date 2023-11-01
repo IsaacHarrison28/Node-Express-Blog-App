@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  color: #222;
+  font-family: sans-serif;
+}
+
+/* Top heading styles */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  margin-bottom: 3rem;
+  padding-inline: 2rem;
+}
+
+.header-container a.logo {
+  color: inherit;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+  margin-inline-end: 1rem;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* posts content styles */
+
+.posts {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.posts .post {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.posts .post .post-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.posts .post .post-content .post-heading {
+  margin-bottom: 0.6rem;
+  font-size: 1.6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+}
+
+.post-info {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  color: #888;
+}
+
+.post-info a {
+  text-decoration: none;
+  color: #888;
+}
+
+.posts .post .post-content .post-paragraph {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* login and register form styles */
+
+div.form-ultimate-container {
+  width: 100%;
+}
+
+div.form-container {
+  max-width: 60%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div.heading {
+  margin-bottom: 4rem;
+}
+
+div.heading h3 {
+  color: inherit;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+div.form-content {
+  width: 100%;
+}
+
+div.form-content form.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  gap: 2rem;
+}
+
+div.form-content form.form input {
+  display: block;
+  width: 100%;
+  padding: 0.8rem 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+  font-style: normal;
+  font-size: 0.9rem;
+  color: inherit;
+  background: #eee;
+}
+
+div.form-content form.form button {
+  padding: 0.8rem 2.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0.6rem;
+  background: rgb(149, 209, 191);
+  font-size: 0.8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  color: white;
+}
